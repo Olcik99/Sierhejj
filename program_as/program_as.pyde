@@ -38,23 +38,23 @@ def draw():
     s.vertex(200, 240)
     s.endShape(CLOSE)
     shape(s, 0, 0)
+    # ładny kształt, wyróżniający się, plus do aktywności
     
    
     fill(255, 0, 0)
     text("S", width/2+5, height/2)
-    a = (hex(get(mouseX, mouseY)))
-    if key == "s" and keyPressed:
+    if keyPressed and key == "s": # warto by najpierw sprawdzić, czy coś zostało kliknięte, a później sprawdzać, czy jest literą s
         fill(70, 230, 10)
-        text("S", width/2+5, height/2) 
+        text("S", width/2+5, height/2)
+    # miało być też dodane zmienianie zaznaczenia między literami za pomocą strzałęk
         
     fill(255, 0, 0)
     text("A", width/2-45, height/2)
     a = (hex(get(mouseX, mouseY)))
     print(a)
-    if a == "FFFF0000":
+    if a == "FFFF0000": # teraz zaznacza się rónież przy najechaniu na 's', trzeba dodać warnek czy koordynaty myszy znajdują się po lewej stronie okna programu
         fill(70, 230, 10)
         text("A", width/2-45, height/2)
-# Witam ^^ Z racji tego, że moje zdolności, jaki Aleksandry Strzelczyk nie są na wysokim poziomie jeśli chodzi o programowanie, 
-# więc proszę o wyrozumiałość, ponieważ nasze projekty w niektóych miejscach mogą być identyczne (dużo się nardzamy i analizujemy wszystko wspólnie).
-# Życzę dużo cierpliwości do nas i zdrówka, szczególnie dla Janosika <3
-        
+
+# Pragnę zauważyć, że przedmiot nie wymaga wysokich umiejętności programistycznych, a dopiero naucza ich podstaw, co myśląc logicznie i poświęcając trochę czasu można opanować.
+# 1,25p +

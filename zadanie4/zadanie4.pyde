@@ -3,8 +3,8 @@ add_library('pdf')
 def setup():
     
     global img
-    size(400, 400)
-    img = loadImage("foto.jpg")
+    size(400, 400) # to nie są proporcje zdjęcia dokumentowego
+    img = loadImage("zdj.jpg") # wartoby to zdjęcie załączyć...
     print(random.random())
     print(type(img)) 
     fill(0,0,0)
@@ -12,13 +12,11 @@ def setup():
     
 def draw():
     global img
-    image(img, 100, 100, height/2, width/2)
+    image(img, 100, 100, height/2, width/2) # wystarczy rysować raz na klatkę
     if (key == CODED):
         if (keyCode == 37): 
             clear()
             beginRecord(PDF, "foto1.pdf")
-            global img
-            image(img, 100, 100, height/2, width/2)
             #serduszka
             o = createShape()
             o.beginShape()
@@ -63,8 +61,6 @@ def draw():
         if (keyCode == 39): 
             clear()
             beginRecord(PDF, "foto2.pdf")
-            global img
-            image(img, 100, 100, height/2, width/2)
             
             s = createShape()
             s.beginShape()
@@ -97,3 +93,5 @@ def draw():
                       
 def mousePressed():
     exit()
+    
+#1,5p

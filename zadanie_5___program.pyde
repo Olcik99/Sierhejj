@@ -1,4 +1,4 @@
-class Kolo(): # Dzień dobry, przez przypadek podesłałam swoje notatki. Poprawne zadanie podesłałam w następnym pliku, dlatego proszę nie brać tego pod uwagę :)
+class Kolo(): # Dzień dobry, przez przypadek podesłałam swoje notatki, których teraz nie potrafię usunąć. Poprawne zadanie podesłałam w następnym pliku, dlatego proszę nie brać tego pod uwagę :)
   
     kolor = 0 
     def __init__(self, x, y, w):

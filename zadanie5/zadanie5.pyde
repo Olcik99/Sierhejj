@@ -64,3 +64,6 @@ def draw():
     kolop.rysuj()
     fill(208, 212, 208)
     kolot.rysuj()
+    
+# plus do aktywnosci za scenerię, jednak metody i atrybuty sa kalką tych z mojego programu, a to o twóczość i pomysły na ich polu chodziło
+# 1,5pkt

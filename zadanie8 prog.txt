@@ -1,0 +1,14 @@
+Nazwa klasy: Bankomat
+atrybut klasy: gotówka
+atrybut: gotówka 
+metoda: sprawdź_pin
+metoda: sprawdź_stan_konta
+metoda: wybierz_kwote
+metoda: wypłać_gotówkę 
+metoda: wydrukuj_potwierdzenie
+Nazwa klasy: Customer
+metoda: włóż_kartę
+metoda: wprowadź_pin
+metoda: odbieranie_gotówki
+metoda: odbierz_kartę
+

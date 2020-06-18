@@ -35,4 +35,5 @@ def setup():
     fill(50,100,200)
     duzyWykwadratowanyKwadrat = WykwadratowanyKwadrat(150.0)
     duzyWykwadratowanyKwadrat.sketchWykwadratowany(30, 300, 10)
-    
+
+#2pkt

@@ -58,4 +58,5 @@ def mouseClicked():
         pet.speak()
         if isinstance(pet, Dog):
             pet.gimmePaw()
- 
+
+# 1,25pkt głównie brakuje odejmownaia (metoda __sub__ od substract) 

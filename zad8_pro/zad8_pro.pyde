@@ -59,3 +59,5 @@ def mouseClicked():
         if mouseY >40 and mouseY <60:
             library.addBook(Asia.returnBook())
             
+# 0,5p/0,5p za tę część
+            

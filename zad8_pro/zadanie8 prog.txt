@@ -1,14 +1,16 @@
 Nazwa klasy: Bankomat
-atrybut klasy: gotówka
-atrybut: gotówka 
+atrybut klasy: gotówka #rozumiem, ze ta dostępna w bankomacie
+atrybut: gotówka
 metoda: sprawdź_pin
 metoda: sprawdź_stan_konta
 metoda: wybierz_kwote
 metoda: wypłać_gotówkę 
 metoda: wydrukuj_potwierdzenie
-Nazwa klasy: Customer
+
+Nazwa klasy: Customer # lepsza byłaby karta jako nazwa, bo jeden klient może mieć kilka kont/kart
 metoda: włóż_kartę
 metoda: wprowadź_pin
 metoda: odbieranie_gotówki
 metoda: odbierz_kartę
 
+1,5/1,5 za tą część

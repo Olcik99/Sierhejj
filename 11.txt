@@ -1,0 +1,5 @@
+Hotel
+Recepcjonistka: Proszę o podanie danych osobistych, abym mogła państwa zarejestrować w systemie.
+Recepcjonista: Czy mogę prosić o listę osób, która przybędzie? Proszę dodatkowo o podanie podstawowych danych.
+WZORZEC:odwiedzający
+Dlaczego: mamy różnych gości rejestrujących się w hotleu (zasoby) i inne osoby zajmujące się danym zamówiniem (akcjami). Możemy z tego osiągnąć różne akcje, ponieważ są one podzielone(trzeba je realizować od samego początku samemu). Postacie przyjmują rożne zamówienia, nie wszystko robi jedna.
